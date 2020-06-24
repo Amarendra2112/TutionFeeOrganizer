@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TuitionTracker</string>
+    <string name="Username">Enter UserName</string>
+    <string name="Password">Enter Password</string>
+    <string name="Login">Login</string>
+    <string name="RegisterLink">New user Register Here</string>
+    <string name="ConformPassword">Conform Password</string>
+    <string name="RegistrationBTN">Register</string>
+    <string name="AddStudent">Add New Student</string>
+    <string name="StudentName">Student Name</string>
+    <string name="StudentClass">Class</string>
+    <string name="Fee">Fee</string>
+    <string name="Phone">Phone number</string>
+    <string name="School">Date of joining</string>
+    <string name="Reset">Reset</string>
+    <string name="Edit">Edit details</string>
+    <string name="Delete">Delete Student</string>
+    <string name="January">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sept">Sept</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+</resources>

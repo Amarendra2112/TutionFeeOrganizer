@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E0E0"
+    tools:context=".StudentDetails">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/RegistrationToolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#E46969"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/StudentDetailName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegistrationToolbar" />
+
+    <TextView
+        android:id="@+id/DateStudentDetail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StudentDetailName" />
+
+    <TextView
+        android:id="@+id/Jan"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/January"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/PhoneNumberDetail"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneNumberDetail" />
+
+    <TextView
+        android:id="@+id/Feb"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/Feb"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Jan"
+        app:layout_constraintStart_toEndOf="@+id/Jan" />
+
+    <TextView
+        android:id="@+id/Mar"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Mar"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/Jan"
+        app:layout_constraintTop_toBottomOf="@+id/Jan" />
+
+    <TextView
+        android:id="@+id/Aprl"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/Apr"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Mar"
+        app:layout_constraintStart_toEndOf="@+id/Mar" />
+
+    <TextView
+        android:id="@+id/May"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/May"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/Mar"
+        app:layout_constraintTop_toBottomOf="@+id/Mar" />
+
+    <TextView
+        android:id="@+id/June"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/June"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/May"
+        app:layout_constraintStart_toEndOf="@+id/May" />
+
+    <TextView
+        android:id="@+id/Jul"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Jul"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/May"
+        app:layout_constraintTop_toBottomOf="@+id/May" />
+
+    <TextView
+        android:id="@+id/Aug"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/Aug"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Jul"
+        app:layout_constraintStart_toEndOf="@+id/Jul" />
+
+    <TextView
+        android:id="@+id/Sept"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Sept"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/Jul"
+        app:layout_constraintTop_toBottomOf="@+id/Jul" />
+
+    <TextView
+        android:id="@+id/Oct"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/Oct"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Sept"
+        app:layout_constraintStart_toEndOf="@+id/Sept" />
+
+    <TextView
+        android:id="@+id/Nov"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Nov"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/Sept"
+        app:layout_constraintTop_toBottomOf="@+id/Sept" />
+
+    <TextView
+        android:id="@+id/Dec"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/Dec"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Nov"
+        app:layout_constraintStart_toEndOf="@+id/Nov" />
+
+    <TextView
+        android:id="@+id/PhoneNumberDetail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DateStudentDetail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

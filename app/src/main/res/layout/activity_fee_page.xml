@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeePage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/StudentToolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/JanBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/January"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StudentToolbar" />
+
+    <Button
+        android:id="@+id/FebBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/Feb"
+        app:layout_constraintBaseline_toBaselineOf="@+id/JanBtn"
+        app:layout_constraintStart_toEndOf="@+id/JanBtn" />
+
+    <Button
+        android:id="@+id/MarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/Mar"
+        app:layout_constraintBaseline_toBaselineOf="@+id/FebBtn"
+        app:layout_constraintStart_toEndOf="@+id/FebBtn" />
+
+    <Button
+        android:id="@+id/AprlBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/Apr"
+        app:layout_constraintStart_toStartOf="@+id/JanBtn"
+        app:layout_constraintTop_toBottomOf="@+id/JanBtn" />
+
+    <Button
+        android:id="@+id/MayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/May"
+        app:layout_constraintBaseline_toBaselineOf="@+id/AprlBtn"
+        app:layout_constraintStart_toEndOf="@+id/AprlBtn" />
+
+    <Button
+        android:id="@+id/JuneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/June"
+        app:layout_constraintBaseline_toBaselineOf="@+id/MayBtn"
+        app:layout_constraintStart_toEndOf="@+id/MayBtn" />
+
+    <Button
+        android:id="@+id/JulyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/Jul"
+        app:layout_constraintStart_toStartOf="@+id/AprlBtn"
+        app:layout_constraintTop_toBottomOf="@+id/AprlBtn" />
+
+    <Button
+        android:id="@+id/AugBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/Aug"
+        app:layout_constraintBaseline_toBaselineOf="@+id/JulyBtn"
+        app:layout_constraintStart_toEndOf="@+id/JulyBtn" />
+
+    <Button
+        android:id="@+id/SeptBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/Sept"
+        app:layout_constraintBaseline_toBaselineOf="@+id/AugBtn"
+        app:layout_constraintStart_toEndOf="@+id/AugBtn" />
+
+    <Button
+        android:id="@+id/OctBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/Oct"
+        app:layout_constraintStart_toStartOf="@+id/JulyBtn"
+        app:layout_constraintTop_toBottomOf="@+id/JulyBtn" />
+
+    <Button
+        android:id="@+id/NovBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/Nov"
+        app:layout_constraintBaseline_toBaselineOf="@+id/OctBtn"
+        app:layout_constraintStart_toEndOf="@+id/OctBtn" />
+
+    <Button
+        android:id="@+id/DecBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="@string/Dec"
+        app:layout_constraintBaseline_toBaselineOf="@+id/NovBtn"
+        app:layout_constraintStart_toEndOf="@+id/NovBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
